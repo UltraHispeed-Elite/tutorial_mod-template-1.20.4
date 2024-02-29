@@ -10,5 +10,7 @@
   "block.tutorial_mod.nether_ruby_ore": "Nether Ruby Ore",
   "block.tutorial_mod.end_ruby_ore": "End Ruby Ore",
 
+  "item.tutorial_mod.metal_detector": "Metal Detector",
+
   "itemgroup.ruby": "Ruby tutorial group"
 }

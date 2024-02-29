@@ -12,5 +12,7 @@
 
   "item.tutorial_mod.metal_detector": "Metal Detector",
 
+  "block.tutorial_mod.sound_block": "Sound Block",
+
   "itemgroup.ruby": "Ruby tutorial group"
 }

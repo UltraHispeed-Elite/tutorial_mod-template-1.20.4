@@ -6,6 +6,7 @@
     "tutorial_mod:ruby_ore",
     "tutorial_mod:deepslate_ruby_ore",
     "tutorial_mod:nether_ruby_ore",
-    "tutorial_mod:end_ruby_ore"
+    "tutorial_mod:end_ruby_ore",
+    "tutorial_mod:sound_block"
   ]
 }

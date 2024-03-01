@@ -14,5 +14,7 @@
 
   "block.tutorial_mod.sound_block": "Sound Block",
 
+  "item.tutorial_mod.tomato": "Tomato",
+
   "itemgroup.ruby": "Ruby tutorial group"
 }

@@ -11,6 +11,7 @@
   "block.tutorial_mod.end_ruby_ore": "End Ruby Ore",
 
   "item.tutorial_mod.metal_detector": "Metal Detector",
+  "tooltip.tutorial_mod.metal_detector.tooltip": "Finds valuables underground",
 
   "block.tutorial_mod.sound_block": "Sound Block",
 

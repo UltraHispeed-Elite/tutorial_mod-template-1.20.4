@@ -28,5 +28,7 @@
   "item.tutorial_mod.tomato": "Tomato",
   "item.tutorial_mod.coal_briquette": "Coal Briquette",
 
+  "item.tutorial_mod.ruby_staff": "Ruby Staff",
+
   "itemgroup.ruby": "Ruby tutorial group"
 }

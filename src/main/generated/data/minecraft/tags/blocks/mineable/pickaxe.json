@@ -7,6 +7,15 @@
     "tutorial_mod:deepslate_ruby_ore",
     "tutorial_mod:nether_ruby_ore",
     "tutorial_mod:end_ruby_ore",
-    "tutorial_mod:sound_block"
+    "tutorial_mod:sound_block",
+    "tutorial_mod:ruby_stairs",
+    "tutorial_mod:ruby_slab",
+    "tutorial_mod:ruby_button",
+    "tutorial_mod:ruby_pressure_plate",
+    "tutorial_mod:ruby_fence",
+    "tutorial_mod:ruby_fence_gate",
+    "tutorial_mod:ruby_wall",
+    "tutorial_mod:ruby_door",
+    "tutorial_mod:ruby_trapdoor"
   ]
 }

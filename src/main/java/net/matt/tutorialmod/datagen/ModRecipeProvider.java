@@ -8,6 +8,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -42,5 +43,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_RUBY)));
+
+        createStairsRecipe(ModBlocks.RUBY_STAIRS, Ingredient.ofItems(ModBlocks.RUBY_BLOCK));
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.RUBY_SLAB, Ingredient.ofItems(ModBlocks.RUBY_BLOCK));
+        offerSingleOutputShapelessRecipe(exporter, ModBlocks.RUBY_BUTTON, ModBlocks.RUBY_BLOCK, "ruby");
+        createPressurePlateRecipe(RecipeCategory.MISC,ModBlocks.RUBY_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.RUBY_BLOCK));
+        createFenceRecipe(ModBlocks.RUBY_FENCE, Ingredient.ofItems(ModBlocks.RUBY_BLOCK));
+        createFenceGateRecipe(ModBlocks.RUBY_FENCE_GATE, Ingredient.ofItems(ModBlocks.RUBY_BLOCK));
+        offerWallRecipe(exporter, RecipeCategory.MISC, ModBlocks.RUBY_STAIRS, ModBlocks.RUBY_BLOCK);
+        createDoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModBlocks.RUBY_BLOCK));
+        createTrapdoorRecipe(ModBlocks.RUBY_TRAPDOOR, Ingredient.ofItems(ModBlocks.RUBY_BLOCK));
     }
 }
